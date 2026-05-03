@@ -1,0 +1,916 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <title>GrowSK Tech | Saskatchewan Digital Agency | Web Design, Google Ads & Apps</title>
+  <meta name="description" content="GrowSK Tech is Saskatchewan's digital growth agency. We build lead-generation websites in Saskatoon and Regina, run Google Ads, handle local SEO, and develop custom apps and AI tools for service businesses across Saskatchewan." />
+  <meta name="keywords" content="Saskatchewan digital agency, Saskatoon web design, Regina web design, Saskatchewan Google Ads, local SEO Saskatchewan, app development Saskatchewan, custom software Saskatchewan, AI tools Saskatchewan, lead generation websites, plumber marketing Saskatchewan, HVAC marketing Saskatchewan, digital marketing Saskatchewan" />
+  <meta name="robots" content="index, follow" />
+  <meta name="author" content="GrowSK Tech" />
+  <link rel="canonical" href="https://www.growsktech.com/" />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://www.growsktech.com/" />
+  <meta property="og:title" content="GrowSK Tech | Saskatchewan's Digital Growth Agency" />
+  <meta property="og:description" content="Web design in Saskatoon and Regina, Google Ads, local SEO, custom apps, and AI tools for Saskatchewan businesses." />
+  <meta property="og:image" content="https://www.growsktech.com/og-image.jpg" />
+  <meta property="og:locale" content="en_CA" />
+  <meta property="og:site_name" content="GrowSK Tech" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="GrowSK Tech | Saskatchewan Digital Agency" />
+  <meta name="twitter:description" content="Web design, Google Ads, local SEO, custom apps, and AI tools for Saskatchewan businesses." />
+  <meta name="twitter:image" content="https://www.growsktech.com/og-image.jpg" />
+  <meta name="geo.region" content="CA-SK" />
+  <meta name="geo.placename" content="Saskatoon, Saskatchewan" />
+  <meta name="geo.position" content="52.1332;-106.6700" />
+  <meta name="ICBM" content="52.1332, -106.6700" />
+  <script type="application/ld+json">{"@context":"https://schema.org","@type":"LocalBusiness","name":"GrowSK Tech","description":"Saskatchewan digital agency offering web design, Google Ads, local SEO, custom app development, and AI tools for local service businesses.","url":"https://www.growsktech.com","logo":"https://www.growsktech.com/logo.png","telephone":"+1-306-000-0000","email":"hello@growsktech.com","address":{"@type":"PostalAddress","addressLocality":"Saskatoon","addressRegion":"SK","addressCountry":"CA"},"areaServed":[{"@type":"City","name":"Saskatoon"},{"@type":"City","name":"Regina"},{"@type":"City","name":"Prince Albert"},{"@type":"City","name":"Moose Jaw"},{"@type":"State","name":"Saskatchewan"}],"serviceType":["Web Design","Google Ads","Local SEO","Custom Software","AI Tools"],"priceRange":"$$","openingHours":"Mo-Fr 09:00-18:00","sameAs":["https://www.facebook.com/growsktech","https://www.instagram.com/growsktech","https://www.linkedin.com/company/growsktech"]}</script>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800;900&family=DM+Sans:opsz,wght@9..40,300;9..40,400;9..40,500;9..40,600&display=swap" rel="stylesheet" />
+  <style>
+    :root{--green:#2D7D32;--green-mid:#388E3C;--green-light:#4CAF50;--green-pale:#E8F5E9;--gold:#F0A500;--gold-dark:#D4920A;--gold-pale:#FFF8E1;--navy:#1B2A4A;--navy-dark:#0F1B30;--navy-mid:#243656;--white:#fff;--off-white:#F8FAFE;--g100:#F3F4F6;--g200:#E5E7EB;--g400:#9CA3AF;--g600:#4B5563;--text:#1F2937;--r:12px;--rl:20px;--sh:0 4px 24px rgba(27,42,74,.10);--shl:0 12px 48px rgba(27,42,74,.16);--tr:all .3s cubic-bezier(.4,0,.2,1)}
+    *,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+    html{scroll-behavior:smooth}
+    body{font-family:'DM Sans',sans-serif;color:var(--text);background:var(--white);line-height:1.6;overflow-x:hidden}
+    img{max-width:100%;display:block}a{text-decoration:none;color:inherit}ul{list-style:none}
+    h1,h2,h3,h4,h5,h6{font-family:'Outfit',sans-serif;line-height:1.2;font-weight:700}
+    .slabel{font-family:'Outfit',sans-serif;font-size:.75rem;font-weight:700;letter-spacing:.15em;text-transform:uppercase;color:var(--gold);margin-bottom:12px;display:block}
+    .stitle{font-size:clamp(2rem,4vw,3rem);color:var(--navy);margin-bottom:16px}
+    .stitle span{color:var(--green)}
+    .ssub{font-size:1.05rem;color:var(--g600);max-width:620px;line-height:1.75}
+    .container{max-width:1180px;margin:0 auto;padding:0 24px}
+    section{padding:96px 0}
+    .btn{display:inline-flex;align-items:center;gap:8px;padding:13px 26px;border-radius:8px;font-family:'Outfit',sans-serif;font-weight:600;font-size:.95rem;cursor:pointer;border:none;transition:var(--tr);text-decoration:none;white-space:nowrap}
+    .btn-primary{background:var(--green);color:#fff}.btn-primary:hover{background:var(--green-mid);transform:translateY(-2px);box-shadow:0 8px 24px rgba(45,125,50,.3)}
+    .btn-gold{background:var(--gold);color:var(--navy-dark)}.btn-gold:hover{background:var(--gold-dark);transform:translateY(-2px);box-shadow:0 8px 24px rgba(240,165,0,.35)}
+    .btn-outline{background:transparent;color:#fff;border:2px solid rgba(255,255,255,.4)}.btn-outline:hover{background:rgba(255,255,255,.1);border-color:#fff}
+    .btn-ghost{background:transparent;color:var(--navy);border:2px solid var(--navy)}.btn-ghost:hover{background:var(--navy);color:#fff}
+    .btn-white{background:#fff;color:var(--green);font-weight:700}.btn-white:hover{background:var(--g100);transform:translateY(-2px)}
+    .btn-sm{padding:9px 18px;font-size:.85rem}
+
+    /* NAV */
+    .navbar{position:fixed;top:0;left:0;right:0;z-index:1000;padding:13px 0;transition:var(--tr)}
+    .navbar.scrolled{background:rgba(255,255,255,.97);backdrop-filter:blur(20px);box-shadow:0 1px 0 var(--g200),var(--sh);padding:9px 0}
+    .nbi{display:flex;align-items:center;justify-content:space-between;gap:12px}
+    .nlogo{display:flex;align-items:center;gap:10px;flex-shrink:0}
+    .nlogo img{height:38px;width:auto}
+    .nlt{font-family:'Outfit',sans-serif;font-weight:800;font-size:1.2rem;line-height:1}
+    .nlt .gr{color:var(--green)}.nlt .sk{color:var(--gold)}.nlt .tc{color:var(--navy)}
+    .nmain{display:flex;align-items:center;gap:2px}
+    .nitem{position:relative}
+    .nitem>a,.nitem>button{font-family:'Outfit',sans-serif;font-weight:500;font-size:.875rem;color:var(--navy);background:none;border:none;cursor:pointer;padding:7px 11px;border-radius:7px;display:flex;align-items:center;gap:3px;transition:var(--tr)}
+    .nitem>a:hover,.nitem>button:hover{background:var(--g100);color:var(--green)}
+    .nchev{font-size:.6rem;transition:transform .2s}
+    .nitem.open .nchev{transform:rotate(180deg)}
+    .ndrop{display:none;position:absolute;top:calc(100% + 6px);left:0;background:#fff;border:1px solid var(--g200);border-radius:var(--rl);box-shadow:var(--shl);min-width:190px;padding:6px;z-index:100}
+    .ndrop.wide{min-width:540px;display:none;grid-template-columns:repeat(3,1fr);gap:0}
+    .nitem.open .ndrop{display:block}
+    .nitem.open .ndrop.wide{display:grid}
+    .dcol{padding:10px}
+    .dctitle{font-family:'Outfit',sans-serif;font-size:.68rem;font-weight:700;letter-spacing:.1em;text-transform:uppercase;color:var(--g400);padding:3px 8px;margin-bottom:3px}
+    .ndrop a{display:flex;align-items:center;gap:8px;padding:8px 10px;border-radius:8px;font-size:.85rem;color:var(--text);transition:var(--tr)}
+    .ndrop a:hover{background:var(--green-pale);color:var(--green)}
+    .dicon{width:22px;height:22px;border-radius:5px;display:flex;align-items:center;justify-content:center;font-size:.8rem;flex-shrink:0}
+    .nright{display:flex;align-items:center;gap:8px}
+    .hamburger{display:none;flex-direction:column;gap:5px;cursor:pointer;background:none;border:none;padding:4px}
+    .hamburger span{display:block;width:23px;height:2px;background:var(--navy);transition:var(--tr);border-radius:2px}
+    .mmenu{display:none;position:fixed;inset:0;background:var(--navy-dark);z-index:999;flex-direction:column;align-items:center;justify-content:center;gap:20px;padding:60px 24px;overflow-y:auto}
+    .mmenu.open{display:flex}
+    .mmenu a,.mmenu button{font-family:'Outfit',sans-serif;font-size:1.25rem;font-weight:600;color:#fff;background:none;border:none;cursor:pointer;transition:var(--tr)}
+    .mmenu a:hover{color:var(--gold)}
+    .msect{font-size:.72rem;letter-spacing:.1em;text-transform:uppercase;color:var(--g400);margin-top:12px}
+    .mlinks{display:flex;flex-wrap:wrap;justify-content:center;gap:8px;margin-top:4px}
+    .mlinks a{font-size:.85rem;font-weight:500;color:rgba(255,255,255,.6);background:rgba(255,255,255,.06);padding:5px 13px;border-radius:100px}
+    .mclose{position:fixed;top:18px;right:22px;background:none;border:none;color:#fff;font-size:1.8rem;cursor:pointer;z-index:1}
+
+    /* HERO */
+    .hero{min-height:100vh;background:linear-gradient(135deg,var(--navy-dark) 0%,var(--navy) 50%,#1a3a5c 100%);display:flex;align-items:center;position:relative;overflow:hidden;padding:120px 0 80px}
+    .hbg{position:absolute;inset:0;background-image:radial-gradient(circle at 20% 50%,rgba(45,125,50,.15) 0%,transparent 50%),radial-gradient(circle at 80% 20%,rgba(240,165,0,.1) 0%,transparent 40%)}
+    .hgrid{position:absolute;inset:0;background-image:linear-gradient(rgba(255,255,255,.03) 1px,transparent 1px),linear-gradient(90deg,rgba(255,255,255,.03) 1px,transparent 1px);background-size:60px 60px}
+    .hi{display:grid;grid-template-columns:1fr 1fr;gap:64px;align-items:center;position:relative;z-index:2}
+    .hbadge{display:inline-flex;align-items:center;gap:8px;background:rgba(240,165,0,.15);border:1px solid rgba(240,165,0,.3);color:var(--gold);padding:6px 14px;border-radius:100px;font-family:'Outfit',sans-serif;font-size:.78rem;font-weight:600;letter-spacing:.05em;text-transform:uppercase;margin-bottom:24px;animation:fiu .6s ease both}
+    .hbadge::before{content:'';width:6px;height:6px;background:var(--gold);border-radius:50%;animation:pulse 2s infinite}
+    @keyframes pulse{0%,100%{opacity:1;transform:scale(1)}50%{opacity:.5;transform:scale(1.3)}}
+    .hero h1{font-size:clamp(2.4rem,5vw,3.6rem);color:#fff;line-height:1.1;margin-bottom:22px;animation:fiu .6s ease .1s both}
+    .hhg{color:var(--green-light)}.hhgo{color:var(--gold)}
+    .hsub{font-size:1.05rem;color:rgba(255,255,255,.75);line-height:1.75;margin-bottom:36px;animation:fiu .6s ease .2s both}
+    .hact{display:flex;gap:14px;flex-wrap:wrap;margin-bottom:40px;animation:fiu .6s ease .3s both}
+    .htrust{display:flex;align-items:center;gap:20px;flex-wrap:wrap;animation:fiu .6s ease .4s both}
+    .hti{display:flex;align-items:center;gap:8px;color:rgba(255,255,255,.6);font-size:.85rem}
+    .hti .tk{color:var(--green-light);font-weight:700}
+    .hvisual{position:relative;animation:fir .8s ease .3s both}
+    .hcard{background:rgba(255,255,255,.06);border:1px solid rgba(255,255,255,.12);border-radius:var(--rl);padding:28px;backdrop-filter:blur(20px)}
+    .hsr{display:grid;grid-template-columns:1fr 1fr;gap:16px;margin-bottom:20px}
+    .hst{background:rgba(255,255,255,.06);border-radius:var(--r);padding:18px;text-align:center}
+    .hstn{font-family:'Outfit',sans-serif;font-size:2rem;font-weight:800;color:#fff;line-height:1;margin-bottom:3px}
+    .hstn .ac{color:var(--gold)}
+    .hstl{font-size:.78rem;color:rgba(255,255,255,.55);font-weight:500}
+    .hsl{display:flex;flex-direction:column;gap:10px}
+    .hsi{display:flex;align-items:center;gap:10px;background:rgba(255,255,255,.04);border-radius:8px;padding:11px 14px;border:1px solid rgba(255,255,255,.07)}
+    .hsic{width:30px;height:30px;border-radius:7px;display:flex;align-items:center;justify-content:center;flex-shrink:0;font-size:.95rem}
+    .ig{background:rgba(45,125,50,.25)}.igo{background:rgba(240,165,0,.2)}.ib{background:rgba(59,130,246,.2)}
+    .hsit{font-family:'Outfit',sans-serif;font-size:.875rem;font-weight:500;color:rgba(255,255,255,.85)}
+    .hsib{margin-left:auto;background:rgba(45,125,50,.25);color:var(--green-light);font-size:.68rem;font-weight:700;padding:3px 7px;border-radius:100px;font-family:'Outfit',sans-serif;white-space:nowrap}
+    .fc{position:absolute;background:#fff;border-radius:var(--r);padding:12px 16px;box-shadow:var(--shl);display:flex;align-items:center;gap:10px}
+    .fc1{top:-22px;right:-18px;animation:flt 3s ease-in-out infinite}
+    .fc2{bottom:-18px;left:-22px;animation:flt 3s ease-in-out 1.5s infinite}
+    .fi{width:34px;height:34px;border-radius:8px;display:flex;align-items:center;justify-content:center;font-size:1rem;flex-shrink:0}
+    .fig{background:var(--green-pale)}.figo{background:var(--gold-pale)}
+    .ftm{font-family:'Outfit',sans-serif;font-weight:700;font-size:.9rem;color:var(--navy);line-height:1.2}
+    .fts{font-size:.72rem;color:var(--g400)}
+    @keyframes flt{0%,100%{transform:translateY(0)}50%{transform:translateY(-7px)}}
+    @keyframes fiu{from{opacity:0;transform:translateY(22px)}to{opacity:1;transform:translateY(0)}}
+    @keyframes fir{from{opacity:0;transform:translateX(28px)}to{opacity:1;transform:translateX(0)}}
+
+    /* TRUST BAR */
+    .tbar{background:var(--off-white);padding:26px 0;border-top:1px solid var(--g200);border-bottom:1px solid var(--g200)}
+    .tbi{display:flex;align-items:center;gap:14px;flex-wrap:wrap}
+    .tbl{font-family:'Outfit',sans-serif;font-size:.78rem;font-weight:600;color:var(--g400);text-transform:uppercase;letter-spacing:.1em;white-space:nowrap;margin-right:6px}
+    .tlogos{display:flex;align-items:center;gap:24px;flex-wrap:wrap}
+    .tlogo{display:flex;align-items:center;gap:7px;opacity:.5;transition:var(--tr)}.tlogo:hover{opacity:.85}
+    .tli{width:26px;height:26px;border-radius:5px;display:flex;align-items:center;justify-content:center;font-size:.75rem;font-weight:bold}
+    .tln{font-family:'Outfit',sans-serif;font-size:.85rem;font-weight:600;color:var(--navy)}
+
+    /* SERVICES */
+    .services{background:#fff}
+    .sh{text-align:center;margin-bottom:60px}
+    .sh .ssub{margin:0 auto}
+    .sgrid{display:grid;grid-template-columns:repeat(3,1fr);gap:26px}
+    .scard{background:#fff;border:1px solid var(--g200);border-radius:var(--rl);padding:34px 30px;transition:var(--tr);position:relative;overflow:hidden}
+    .scard::before{content:'';position:absolute;top:0;left:0;right:0;height:4px;background:linear-gradient(90deg,var(--green),var(--gold));transform:scaleX(0);transition:var(--tr)}
+    .scard:hover{border-color:transparent;box-shadow:var(--shl);transform:translateY(-5px)}
+    .scard:hover::before{transform:scaleX(1)}
+    .siw{width:56px;height:56px;border-radius:var(--r);display:flex;align-items:center;justify-content:center;font-size:1.5rem;margin-bottom:22px}
+    .sbg-g{background:var(--green-pale)}.sbg-go{background:var(--gold-pale)}.sbg-n{background:rgba(27,42,74,.08)}
+    .scard h3{font-size:1.25rem;color:var(--navy);margin-bottom:11px}
+    .scard p{font-size:.9rem;color:var(--g600);line-height:1.72;margin-bottom:22px}
+    .sf{display:flex;flex-direction:column;gap:8px}
+    .sfi{display:flex;align-items:center;gap:8px;font-size:.85rem;color:var(--text)}
+    .sfi::before{content:'✓';width:17px;height:17px;background:var(--green-pale);color:var(--green);border-radius:50%;display:flex;align-items:center;justify-content:center;font-size:.65rem;font-weight:700;flex-shrink:0;text-align:center;line-height:17px}
+    .sc-ft{background:var(--navy);border-color:var(--navy)}
+    .sc-ft h3,.sc-ft p,.sc-ft .sfi{color:rgba(255,255,255,.85)}
+    .sc-ft h3{color:#fff}.sc-ft .sfi::before{background:rgba(240,165,0,.2);color:var(--gold)}
+    .sc-ft::before{transform:scaleX(1)}
+    .stag{position:absolute;top:18px;right:18px;background:var(--gold);color:var(--navy-dark);font-family:'Outfit',sans-serif;font-size:.68rem;font-weight:800;padding:3px 9px;border-radius:100px;text-transform:uppercase;letter-spacing:.05em}
+
+    /* BEYOND */
+    .beyond{background:var(--off-white)}
+    .bh{text-align:center;margin-bottom:16px}
+    .bh .ssub{margin:0 auto}
+    .bintro{max-width:740px;margin:16px auto 44px;text-align:center;font-size:1rem;color:var(--g600);line-height:1.8}
+    .bgrid{display:grid;grid-template-columns:repeat(4,1fr);gap:18px}
+    .bcard{background:#fff;border:1px solid var(--g200);border-radius:var(--r);padding:22px;transition:var(--tr)}
+    .bcard:hover{box-shadow:var(--sh);transform:translateY(-4px);border-color:var(--green-light)}
+    .bicon{font-size:1.7rem;margin-bottom:12px;display:block}
+    .bcard h4{font-family:'Outfit',sans-serif;font-size:.95rem;font-weight:700;color:var(--navy);margin-bottom:7px}
+    .bcard p{font-size:.83rem;color:var(--g600);line-height:1.6}
+
+    /* HOW */
+    .how{background:#fff}
+    .hwhdr{text-align:center;margin-bottom:60px}
+    .hwhdr .ssub{margin:0 auto}
+    .stgrid{display:grid;grid-template-columns:repeat(4,1fr);gap:22px;position:relative}
+    .stgrid::before{content:'';position:absolute;top:38px;left:12.5%;right:12.5%;height:2px;background:linear-gradient(90deg,var(--green),var(--gold));z-index:0}
+    .stcard{background:var(--off-white);border-radius:var(--rl);padding:30px 22px;text-align:center;position:relative;z-index:1;transition:var(--tr);border:1px solid var(--g200)}
+    .stcard:hover{box-shadow:var(--shl);transform:translateY(-4px);background:#fff}
+    .stn{width:52px;height:52px;border-radius:50%;background:var(--navy);color:#fff;font-family:'Outfit',sans-serif;font-size:1.2rem;font-weight:800;display:flex;align-items:center;justify-content:center;margin:0 auto 18px;position:relative;z-index:2}
+    .stcard:nth-child(2) .stn{background:var(--green)}
+    .stcard:nth-child(3) .stn{background:var(--gold);color:var(--navy-dark)}
+    .stcard:nth-child(4) .stn{background:var(--green-mid)}
+    .stcard h3{font-size:1rem;color:var(--navy);margin-bottom:9px}
+    .stcard p{font-size:.84rem;color:var(--g600);line-height:1.62}
+
+    /* NICHES */
+    .niches{background:var(--off-white)}
+    .nh{text-align:center;margin-bottom:60px}
+    .nh .ssub{margin:0 auto}
+    .ngrid{display:grid;grid-template-columns:repeat(4,1fr);gap:18px;margin-bottom:44px}
+    .ncard{background:#fff;border:1px solid var(--g200);border-radius:var(--r);padding:26px 22px;text-align:center;transition:var(--tr)}
+    .ncard:hover{background:var(--green-pale);border-color:var(--green-light);transform:translateY(-4px);box-shadow:var(--sh)}
+    .ncard:hover .ni{transform:scale(1.1)}
+    .ni{font-size:2rem;margin-bottom:10px;display:block;transition:var(--tr)}
+    .nn{font-family:'Outfit',sans-serif;font-size:.9rem;font-weight:600;color:var(--navy)}
+    .nd{font-size:.78rem;color:var(--g400);margin-top:3px}
+    .ncta{text-align:center;padding:30px;background:linear-gradient(135deg,var(--navy),var(--navy-mid));border-radius:var(--rl);color:#fff}
+    .ncta h3{font-size:1.3rem;margin-bottom:7px}
+    .ncta p{color:rgba(255,255,255,.7);font-size:.9rem;margin-bottom:18px}
+
+    /* PRICING */
+    .pricing{background:#fff}
+    .prh{text-align:center;margin-bottom:60px}
+    .prh .ssub{margin:0 auto}
+    .prnote{text-align:center;margin-bottom:44px}
+    .prnote span{background:var(--green-pale);border:1px solid rgba(45,125,50,.2);border-radius:var(--r);padding:11px 22px;display:inline-flex;align-items:center;gap:7px;font-size:.88rem;color:var(--green);font-weight:500}
+    .prgrid{display:grid;grid-template-columns:repeat(3,1fr);gap:26px;align-items:start}
+    .prcard{background:#fff;border:1px solid var(--g200);border-radius:var(--rl);padding:36px 32px;transition:var(--tr)}
+    .prcard:hover{box-shadow:var(--shl);transform:translateY(-4px)}
+    .prcard-ft{background:var(--navy);border-color:var(--navy);transform:scale(1.04);position:relative}
+    .prcard-ft:hover{transform:scale(1.04) translateY(-4px)}
+    .prbadge{position:absolute;top:-13px;left:50%;transform:translateX(-50%);background:var(--gold);color:var(--navy-dark);font-family:'Outfit',sans-serif;font-size:.72rem;font-weight:800;padding:4px 14px;border-radius:100px;text-transform:uppercase;letter-spacing:.08em;white-space:nowrap}
+    .preyebrow{font-family:'Outfit',sans-serif;font-size:.73rem;font-weight:700;letter-spacing:.12em;text-transform:uppercase;color:var(--green);margin-bottom:5px}
+    .prcard-ft .preyebrow{color:var(--gold)}
+    .prtitle{font-family:'Outfit',sans-serif;font-size:1.4rem;font-weight:800;color:var(--navy);margin-bottom:8px}
+    .prcard-ft .prtitle{color:#fff}
+    .prdesc{font-size:.875rem;color:var(--g600);margin-bottom:24px;line-height:1.68}
+    .prcard-ft .prdesc{color:rgba(255,255,255,.65)}
+    .prprice{border-top:1px solid var(--g200);border-bottom:1px solid var(--g200);padding:22px 0;margin-bottom:26px}
+    .prcard-ft .prprice{border-color:rgba(255,255,255,.15)}
+    .prstart{font-size:.78rem;font-weight:600;text-transform:uppercase;letter-spacing:.08em;color:var(--g400);margin-bottom:4px}
+    .prcard-ft .prstart{color:rgba(255,255,255,.45)}
+    .pramt{font-family:'Outfit',sans-serif;font-size:2.5rem;font-weight:900;color:var(--navy);line-height:1}
+    .prcard-ft .pramt{color:#fff}
+    .pramt sup{font-size:1rem;vertical-align:super;font-weight:600}
+    .pramt .per{font-size:.95rem;font-weight:400;color:var(--g400)}
+    .prcard-ft .pramt .per{color:rgba(255,255,255,.4)}
+    .prfn{font-size:.78rem;color:var(--g400);margin-top:5px;line-height:1.5}
+    .prcard-ft .prfn{color:rgba(255,255,255,.4)}
+    .prfeats{display:flex;flex-direction:column;gap:10px;margin-bottom:26px}
+    .prfeat{display:flex;align-items:flex-start;gap:9px;font-size:.865rem;color:var(--text)}
+    .prcard-ft .prfeat{color:rgba(255,255,255,.85)}
+    .pchk{width:19px;height:19px;border-radius:50%;background:var(--green-pale);color:var(--green);display:flex;align-items:center;justify-content:center;font-size:.62rem;font-weight:700;flex-shrink:0;margin-top:2px}
+    .prcard-ft .pchk{background:rgba(240,165,0,.2);color:var(--gold)}
+
+    /* WHY */
+    .why{background:var(--off-white)}
+    .whi{display:grid;grid-template-columns:1fr 1fr;gap:80px;align-items:center}
+    .whpts{display:flex;flex-direction:column;gap:26px;margin-top:28px}
+    .whpt{display:flex;gap:18px;align-items:flex-start}
+    .whpico{width:46px;height:46px;border-radius:var(--r);display:flex;align-items:center;justify-content:center;font-size:1.25rem;flex-shrink:0}
+    .whpico.g{background:var(--green-pale)}.whpico.go{background:var(--gold-pale)}.whpico.n{background:rgba(27,42,74,.07)}
+    .whptxt h4{font-family:'Outfit',sans-serif;font-size:1rem;color:var(--navy);margin-bottom:5px}
+    .whptxt p{font-size:.875rem;color:var(--g600);line-height:1.65}
+    .whsc{background:var(--navy);border-radius:var(--rl);padding:36px;color:#fff}
+    .whsc h3{font-size:1.05rem;margin-bottom:26px;color:rgba(255,255,255,.65);font-weight:500}
+    .whsi{display:flex;align-items:center;justify-content:space-between;padding:13px 0;border-bottom:1px solid rgba(255,255,255,.08)}
+    .whsi:last-child{border-bottom:none}
+    .whsl{font-size:.875rem;color:rgba(255,255,255,.6)}
+    .whsv{font-family:'Outfit',sans-serif;font-size:1.4rem;font-weight:800;color:#fff}
+    .whsv .ac{color:var(--gold)}
+
+    /* CTA */
+    .cta{background:linear-gradient(135deg,var(--green) 0%,#1a5c1e 100%);padding:96px 0;position:relative;overflow:hidden}
+    .cta::before{content:'';position:absolute;inset:0;background-image:radial-gradient(circle at 80% 50%,rgba(240,165,0,.12) 0%,transparent 50%),linear-gradient(rgba(255,255,255,.03) 1px,transparent 1px),linear-gradient(90deg,rgba(255,255,255,.03) 1px,transparent 1px);background-size:auto,40px 40px,40px 40px}
+    .ctai{position:relative;z-index:2}
+    .ctagrid{display:grid;grid-template-columns:1fr 1.4fr;gap:68px;align-items:start}
+    .ctal h2{font-size:clamp(1.75rem,3.5vw,2.5rem);color:#fff;margin-bottom:14px}
+    .ctal p{font-size:.975rem;color:rgba(255,255,255,.8);margin-bottom:28px;line-height:1.75}
+    .ctalist{display:flex;flex-direction:column;gap:11px}
+    .ctali{display:flex;align-items:center;gap:9px;font-size:.88rem;color:rgba(255,255,255,.8)}
+    .ctali::before{content:'✓';width:20px;height:20px;background:rgba(255,255,255,.15);border-radius:50%;display:flex;align-items:center;justify-content:center;font-size:.68rem;font-weight:700;color:#fff;flex-shrink:0;text-align:center;line-height:20px}
+
+    /* FORM */
+    .cform{background:#fff;border-radius:var(--rl);padding:36px;box-shadow:var(--shl)}
+    .ftitle{font-family:'Outfit',sans-serif;font-size:1.2rem;font-weight:700;color:var(--navy);margin-bottom:3px}
+    .fsubt{font-size:.85rem;color:var(--g600);margin-bottom:20px}
+    .frow{display:grid;grid-template-columns:1fr 1fr;gap:14px}
+    .fg{margin-bottom:14px}
+    .fg label{display:block;font-size:.8rem;font-weight:600;color:var(--navy);margin-bottom:5px;font-family:'Outfit',sans-serif}
+    .fg input,.fg select,.fg textarea{width:100%;padding:10px 13px;border:1.5px solid var(--g200);border-radius:8px;font-family:'DM Sans',sans-serif;font-size:.875rem;color:var(--text);background:#fff;transition:var(--tr);outline:none}
+    .fg input:focus,.fg select:focus,.fg textarea:focus{border-color:var(--green);box-shadow:0 0 0 3px rgba(45,125,50,.08)}
+    .fg textarea{resize:vertical;min-height:85px}
+    .fg select{cursor:pointer;appearance:none;background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='11' height='7' viewBox='0 0 11 7'%3E%3Cpath d='M1 1l4.5 4.5L10 1' stroke='%239CA3AF' stroke-width='1.5' fill='none' stroke-linecap='round'/%3E%3C/svg%3E");background-repeat:no-repeat;background-position:right 13px center}
+    .fsub{width:100%;padding:13px;background:var(--green);color:#fff;border:none;border-radius:8px;font-family:'Outfit',sans-serif;font-size:.975rem;font-weight:700;cursor:pointer;transition:var(--tr)}
+    .fsub:hover{background:var(--green-mid);transform:translateY(-1px);box-shadow:0 6px 18px rgba(45,125,50,.3)}
+    .fnote{font-size:.76rem;color:var(--g400);text-align:center;margin-top:9px}
+    .fsuccess{display:none;text-align:center;padding:22px;background:var(--green-pale);border-radius:var(--r);border:1px solid rgba(45,125,50,.2)}
+    .fsuccess h4{font-family:'Outfit',sans-serif;color:var(--green);margin-bottom:5px}
+    .fsuccess p{font-size:.85rem;color:var(--g600)}
+
+    /* SEO LINKS */
+    .seolinks{background:var(--navy-dark);padding:52px 0 36px}
+    .seotitle{font-family:'Outfit',sans-serif;font-size:.76rem;font-weight:700;letter-spacing:.12em;text-transform:uppercase;color:rgba(255,255,255,.35);margin-bottom:26px;text-align:center}
+    .seogrid{display:grid;grid-template-columns:repeat(5,1fr);gap:16px}
+    .seocol h4{font-family:'Outfit',sans-serif;font-size:.72rem;font-weight:700;letter-spacing:.08em;text-transform:uppercase;color:rgba(255,255,255,.3);margin-bottom:11px}
+    .seocol ul{display:flex;flex-direction:column;gap:6px}
+    .seocol ul li a{font-size:.8rem;color:rgba(255,255,255,.48);transition:var(--tr)}
+    .seocol ul li a:hover{color:var(--gold)}
+
+    /* FOOTER */
+    footer{background:var(--navy-dark);color:#fff;padding:52px 0 26px;border-top:1px solid rgba(255,255,255,.06)}
+    .fgrid{display:grid;grid-template-columns:2fr 1fr 1fr 1.5fr;gap:44px;margin-bottom:44px}
+    .fbrand .nlt{font-size:1.3rem;margin-bottom:14px;display:block}
+    .fbrand .nlt .tc{color:rgba(255,255,255,.8)}
+    .ftag{font-size:.85rem;color:rgba(255,255,255,.48);line-height:1.72;margin-bottom:22px}
+    .fsocs{display:flex;gap:9px}
+    .soc{width:34px;height:34px;background:rgba(255,255,255,.08);border-radius:7px;display:flex;align-items:center;justify-content:center;font-size:.85rem;transition:var(--tr)}
+    .soc:hover{background:var(--green);transform:translateY(-2px)}
+    .fcol h4{font-family:'Outfit',sans-serif;font-size:.76rem;font-weight:700;letter-spacing:.1em;text-transform:uppercase;color:rgba(255,255,255,.3);margin-bottom:14px}
+    .flinks{display:flex;flex-direction:column;gap:8px}
+    .flinks a{font-size:.855rem;color:rgba(255,255,255,.52);transition:var(--tr)}.flinks a:hover{color:var(--gold)}
+    .fci{display:flex;align-items:flex-start;gap:9px;margin-bottom:11px}
+    .fcinfo{font-size:.835rem;color:rgba(255,255,255,.52);line-height:1.5}
+    .fcinfo strong{display:block;color:rgba(255,255,255,.78);font-size:.72rem;text-transform:uppercase;letter-spacing:.05em;margin-bottom:1px}
+    .fbot{border-top:1px solid rgba(255,255,255,.07);padding-top:22px;display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:10px}
+    .fbot p{font-size:.8rem;color:rgba(255,255,255,.28)}
+    .flegal{display:flex;gap:18px}
+    .flegal a{font-size:.8rem;color:rgba(255,255,255,.28);transition:var(--tr)}.flegal a:hover{color:rgba(255,255,255,.7)}
+
+    /* REVEAL */
+    .rv{opacity:0;transform:translateY(28px);transition:opacity .7s ease,transform .7s ease}
+    .rv.vis{opacity:1;transform:translateY(0)}
+    .d1{transition-delay:.1s}.d2{transition-delay:.2s}.d3{transition-delay:.3s}.d4{transition-delay:.4s}
+
+    /* RESPONSIVE */
+    @media(max-width:1080px){
+      .sgrid{grid-template-columns:repeat(2,1fr)}
+      .bgrid{grid-template-columns:repeat(2,1fr)}
+      .stgrid{grid-template-columns:repeat(2,1fr)}.stgrid::before{display:none}
+      .ngrid{grid-template-columns:repeat(3,1fr)}
+      .fgrid{grid-template-columns:1fr 1fr}
+      .hi{grid-template-columns:1fr}.hvisual{display:none}
+      .whi{grid-template-columns:1fr}
+      .ctagrid{grid-template-columns:1fr}
+      .seogrid{grid-template-columns:repeat(3,1fr)}
+    }
+    @media(max-width:768px){
+      section{padding:64px 0}
+      .nmain,.nright .btn:not(.btn-sm){display:none}
+      .hamburger{display:flex}
+      .navbar{background:rgba(255,255,255,.97);backdrop-filter:blur(20px)}
+      .sgrid{grid-template-columns:1fr}
+      .prgrid{grid-template-columns:1fr}
+      .prcard-ft{transform:none}.prcard-ft:hover{transform:translateY(-4px)}
+      .ngrid{grid-template-columns:repeat(2,1fr)}
+      .fgrid{grid-template-columns:1fr;gap:26px}
+      .fbot{flex-direction:column;align-items:flex-start}
+      .hact{flex-direction:column}
+      .frow{grid-template-columns:1fr}
+      .seogrid{grid-template-columns:repeat(2,1fr)}
+    }
+    @media(max-width:480px){
+      .stgrid{grid-template-columns:1fr}
+      .ngrid{grid-template-columns:1fr 1fr}
+      .bgrid{grid-template-columns:1fr}
+      .seogrid{grid-template-columns:1fr 1fr}
+    }
+  </style>
+</head>
+<body>
+
+<!-- NAV -->
+<nav class="navbar" id="navbar" role="navigation" aria-label="Main navigation">
+  <div class="container">
+    <div class="nbi">
+      <a href="/" class="nlogo" aria-label="GrowSK Tech Home">
+        <img src="logo.png" alt="GrowSK Tech" height="38" onerror="this.style.display='none'" />
+        <div class="nlt"><span class="gr">Grow</span><span class="sk">SK</span>&nbsp;<span class="tc">Tech</span></div>
+      </a>
+      <nav class="nmain" aria-label="Primary">
+        <div class="nitem" id="nav-s">
+          <button onclick="tn('nav-s')" aria-haspopup="true" aria-expanded="false">Services <span class="nchev">▾</span></button>
+          <div class="ndrop wide" role="menu">
+            <div class="dcol"><div class="dctitle">Build</div>
+              <a href="/web-design-saskatoon/"><span class="dicon" style="background:var(--green-pale)">🌐</span>Website Design</a>
+              <a href="/custom-software-saskatchewan/"><span class="dicon" style="background:var(--gold-pale)">⚡</span>Custom Apps</a>
+              <a href="/ai-tools-saskatchewan/"><span class="dicon" style="background:rgba(27,42,74,.07)">🤖</span>AI Tools & Automation</a>
+            </div>
+            <div class="dcol"><div class="dctitle">Grow</div>
+              <a href="/google-ads-saskatoon/"><span class="dicon" style="background:#e8f0fe">📣</span>Google Ads</a>
+              <a href="/local-seo-saskatchewan/"><span class="dicon" style="background:var(--green-pale)">📍</span>Local SEO</a>
+              <a href="/digital-marketing-saskatchewan/"><span class="dicon" style="background:var(--gold-pale)">📊</span>Digital Marketing</a>
+            </div>
+            <div class="dcol"><div class="dctitle">Systems</div>
+              <a href="#beyond" onclick="cna()"><span class="dicon" style="background:rgba(27,42,74,.07)">📅</span>Booking Systems</a>
+              <a href="#beyond" onclick="cna()"><span class="dicon" style="background:var(--green-pale)">🗂️</span>Client Portals</a>
+              <a href="#beyond" onclick="cna()"><span class="dicon" style="background:var(--gold-pale)">📈</span>Dashboards & CRMs</a>
+            </div>
+          </div>
+        </div>
+        <div class="nitem" id="nav-i">
+          <button onclick="tn('nav-i')" aria-haspopup="true" aria-expanded="false">Industries <span class="nchev">▾</span></button>
+          <div class="ndrop" role="menu">
+            <a href="/plumber-marketing-saskatchewan/">🔧 Plumbers</a>
+            <a href="/hvac-marketing-saskatchewan/">🔥 HVAC Companies</a>
+            <a href="/electrician-marketing-saskatchewan/">⚡ Electricians</a>
+            <a href="/contractor-web-design-saskatchewan/">🏗️ Contractors</a>
+            <a href="/dental-marketing-saskatchewan/">🦷 Dental Clinics</a>
+            <a href="/healthcare-marketing-saskatchewan/">🏥 Physio & Clinics</a>
+            <a href="/professional-services-saskatchewan/">💼 Professional Services</a>
+          </div>
+        </div>
+        <div class="nitem" id="nav-l">
+          <button onclick="tn('nav-l')" aria-haspopup="true" aria-expanded="false">Locations <span class="nchev">▾</span></button>
+          <div class="ndrop" role="menu">
+            <a href="/saskatoon/">📍 Saskatoon</a>
+            <a href="/regina/">📍 Regina</a>
+            <a href="/prince-albert/">📍 Prince Albert</a>
+            <a href="/moose-jaw/">📍 Moose Jaw</a>
+          </div>
+        </div>
+        <div class="nitem"><a href="#pricing">Pricing</a></div>
+      </nav>
+      <div class="nright">
+        <a href="#contact" class="btn btn-primary btn-sm">Get Free Audit</a>
+        <button class="hamburger" id="hamburger" aria-label="Open menu" aria-expanded="false"><span></span><span></span><span></span></button>
+      </div>
+    </div>
+  </div>
+</nav>
+
+<!-- MOBILE MENU -->
+<div class="mmenu" id="mmenu" role="dialog" aria-modal="true" aria-label="Navigation">
+  <button class="mclose" id="mclose" aria-label="Close">✕</button>
+  <a href="/" onclick="cm()">Home</a>
+  <span class="msect">Services</span>
+  <div class="mlinks">
+    <a href="/web-design-saskatoon/" onclick="cm()">Web Design</a>
+    <a href="/google-ads-saskatoon/" onclick="cm()">Google Ads</a>
+    <a href="/local-seo-saskatchewan/" onclick="cm()">Local SEO</a>
+    <a href="/custom-software-saskatchewan/" onclick="cm()">Custom Apps</a>
+    <a href="/ai-tools-saskatchewan/" onclick="cm()">AI Tools</a>
+  </div>
+  <span class="msect">Locations</span>
+  <div class="mlinks">
+    <a href="/saskatoon/" onclick="cm()">Saskatoon</a>
+    <a href="/regina/" onclick="cm()">Regina</a>
+    <a href="/prince-albert/" onclick="cm()">Prince Albert</a>
+    <a href="/moose-jaw/" onclick="cm()">Moose Jaw</a>
+  </div>
+  <a href="#pricing" onclick="cm()">Pricing</a>
+  <a href="#contact" onclick="cm()" class="btn btn-gold" style="margin-top:8px">Get Free Audit →</a>
+</div>
+
+<!-- HERO -->
+<section class="hero" aria-label="Hero">
+  <div class="hbg"></div><div class="hgrid"></div>
+  <div class="container">
+    <div class="hi">
+      <div>
+        <div class="hbadge">🇨🇦 Saskatchewan's Digital Growth Partner</div>
+        <h1>More Calls.<br/>More Bookings.<br/><span class="hhg">More Revenue.</span></h1>
+        <p class="hsub">GrowSK Tech is a Saskatchewan digital agency building lead-generation websites, running Google Ads, and developing custom apps and AI tools for service businesses in Saskatoon, Regina, and across the province. We handle your digital — you handle your business.</p>
+        <div class="hact">
+          <a href="#contact" class="btn btn-gold">Get Your Free Audit →</a>
+          <a href="#how-it-works" class="btn btn-outline">See How It Works</a>
+        </div>
+        <div class="htrust">
+          <span class="hti"><span class="tk">✓</span> Saskatoon & Regina</span>
+          <span class="hti"><span class="tk">✓</span> No Long-Term Contracts</span>
+          <span class="hti"><span class="tk">✓</span> Results in 30 Days</span>
+        </div>
+      </div>
+      <div class="hvisual">
+        <div style="position:relative">
+          <div class="fc fc1"><div class="fi fig">📈</div><div><div class="ftm">+312% More Calls</div><div class="fts">HVAC Client · Saskatoon</div></div></div>
+          <div class="hcard">
+            <div class="hsr">
+              <div class="hst"><div class="hstn"><span class="ac">46%</span></div><div class="hstl">of SK Businesses in Saskatoon & Regina</div></div>
+              <div class="hst"><div class="hstn">154<span class="ac">K</span></div><div class="hstl">Small Businesses in Saskatchewan</div></div>
+            </div>
+            <div class="hsl">
+              <div class="hsi"><div class="hsic ig">🌐</div><div class="hsit">Lead-Generation Websites</div><div class="hsib">Live in 48hrs</div></div>
+              <div class="hsi"><div class="hsic igo">📣</div><div class="hsit">Google Ads & Local SEO</div><div class="hsib">ROI Tracked</div></div>
+              <div class="hsi"><div class="hsic ib">⚡</div><div class="hsit">Apps, AI Tools & Automation</div><div class="hsib">Built for You</div></div>
+            </div>
+          </div>
+          <div class="fc fc2"><div class="fi figo">📅</div><div><div class="ftm">8 New Bookings</div><div class="fts">Dental Client · This Week</div></div></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- TRUST BAR -->
+<div class="tbar" aria-label="Technology partners">
+  <div class="container">
+    <div class="tbi">
+      <span class="tbl">We work with</span>
+      <div class="tlogos">
+        <div class="tlogo"><div class="tli" style="background:#4285F4;color:#fff">G</div><span class="tln">Google Ads</span></div>
+        <div class="tlogo"><div class="tli" style="background:#1877F2;color:#fff">f</div><span class="tln">Meta Ads</span></div>
+        <div class="tlogo"><div class="tli" style="background:#00C4CC;color:#fff">W</div><span class="tln">Webflow</span></div>
+        <div class="tlogo"><div class="tli" style="background:#7B68EE;color:#fff">S</div><span class="tln">Shopify</span></div>
+        <div class="tlogo"><div class="tli" style="background:#FF6B35;color:#fff;font-size:.65rem">AI</div><span class="tln">AI Tools</span></div>
+        <div class="tlogo"><div class="tli" style="background:#0ea5e9;color:#fff;font-size:.65rem">WP</div><span class="tln">WordPress</span></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- SERVICES -->
+<section class="services" id="services" aria-labelledby="st">
+  <div class="container">
+    <div class="sh rv">
+      <span class="slabel">What We Build</span>
+      <h2 class="stitle" id="st">Saskatchewan Businesses Need More Than a <span>Pretty Website</span></h2>
+      <p class="ssub">From a lead-generation website in Saskatoon to a full custom app built for your workflow — we build digital tools that make your business more money. Every deliverable is tracked and tied to a real outcome.</p>
+    </div>
+    <div class="sgrid">
+      <div class="scard rv d1">
+        <div class="siw sbg-g">🌐</div>
+        <h3>Lead-Generation Websites</h3>
+        <p>Professional web design in Saskatoon and Regina built to capture calls, quote requests, and bookings. We write the copy, optimize for local SEO, and launch in 48 hours — not 6 weeks.</p>
+        <ul class="sf">
+          <li class="sfi">5–8 pages, mobile-first design</li>
+          <li class="sfi">Saskatchewan local SEO foundation</li>
+          <li class="sfi">Call & form tracking built in</li>
+          <li class="sfi">Google review funnel setup</li>
+          <li class="sfi">Google Maps integration</li>
+        </ul>
+      </div>
+      <div class="scard sc-ft rv d2">
+        <div class="stag">Most Popular</div>
+        <div class="siw" style="background:rgba(240,165,0,.15)">📣</div>
+        <h3 style="color:#fff">Google Ads & Local SEO</h3>
+        <p style="color:rgba(255,255,255,.75)">We manage Google Ads in Saskatoon and Regina, optimize your Google Business Profile, and build local search visibility so customers find you first — not your competitors.</p>
+        <ul class="sf">
+          <li class="sfi">Google Search & Local Services Ads</li>
+          <li class="sfi">Local SEO Saskatchewan-wide</li>
+          <li class="sfi">Google Business Profile management</li>
+          <li class="sfi">Remarketing campaigns</li>
+          <li class="sfi">Weekly ROI reporting</li>
+        </ul>
+      </div>
+      <div class="scard rv d3">
+        <div class="siw sbg-n">⚡</div>
+        <h3>Apps, AI Tools & Custom Software</h3>
+        <p>Custom app development in Saskatchewan — booking systems, client portals, AI assistants, and workflow automation built for how your business actually operates. We ship fast and maintain it long-term.</p>
+        <ul class="sf">
+          <li class="sfi">Custom web & mobile apps</li>
+          <li class="sfi">AI-powered business tools</li>
+          <li class="sfi">Booking & CRM integrations</li>
+          <li class="sfi">Workflow & process automation</li>
+          <li class="sfi">Maintenance & ongoing support</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- BEYOND -->
+<section class="beyond" id="beyond" aria-labelledby="bt">
+  <div class="container">
+    <div class="bh rv">
+      <span class="slabel">Beyond Websites</span>
+      <h2 class="stitle" id="bt">Built for More Than <span>Just a Website</span></h2>
+    </div>
+    <p class="bintro rv">Many Saskatchewan businesses don't just need a nicer website. They need systems that save time, capture leads automatically, follow up with customers, and help their team work faster. We build the full digital operation — from the site your clients see to the tools your staff use every day.</p>
+    <div class="bgrid">
+      <div class="bcard rv d1"><span class="bicon">🗂️</span><h4>Client Portals</h4><p>Secure portals where clients upload documents, sign agreements, check project status, and pay invoices — all in one place.</p></div>
+      <div class="bcard rv d1"><span class="bicon">📅</span><h4>Booking Systems</h4><p>Custom booking tools that let customers schedule, reschedule, and get reminders — synced directly to your calendar.</p></div>
+      <div class="bcard rv d2"><span class="bicon">🧮</span><h4>Quote Calculators</h4><p>Interactive calculators on your website that give instant quotes and capture lead info before a human gets involved.</p></div>
+      <div class="bcard rv d2"><span class="bicon">📊</span><h4>Staff Dashboards</h4><p>Internal dashboards that give your team a live view of jobs, schedules, performance, and priorities in one screen.</p></div>
+      <div class="bcard rv d3"><span class="bicon">🤖</span><h4>AI Assistants</h4><p>Trained AI tools that answer client questions, qualify leads, draft proposals, or handle repetitive tasks automatically.</p></div>
+      <div class="bcard rv d3"><span class="bicon">📋</span><h4>CRM & Lead Trackers</h4><p>Simple CRM systems built for your exact workflow — track every lead from first contact to closed job and repeat customer.</p></div>
+      <div class="bcard rv d4"><span class="bicon">📁</span><h4>Document Upload Portals</h4><p>Secure file collection for permits, contracts, or client intake — no more chasing email attachments.</p></div>
+      <div class="bcard rv d4"><span class="bicon">📈</span><h4>Reporting Dashboards</h4><p>Custom screens showing the numbers that matter — revenue, leads, ad spend, conversions — updated live.</p></div>
+    </div>
+  </div>
+</section>
+
+<!-- HOW IT WORKS -->
+<section class="how" id="how-it-works" aria-labelledby="hwt">
+  <div class="container">
+    <div class="hwhdr rv">
+      <span class="slabel">The Process</span>
+      <h2 class="stitle" id="hwt">From First Call to <span>First Lead</span> in Days</h2>
+      <p class="ssub">No lengthy onboarding. No waiting months. Saskatchewan businesses can't afford to wait — and neither can you.</p>
+    </div>
+    <div class="stgrid">
+      <div class="stcard rv d1"><div class="stn">1</div><h3>Free Audit Call</h3><p>We review your website, Google presence, and ads. You get a clear picture of what's costing you leads — for free, no obligation.</p></div>
+      <div class="stcard rv d2"><div class="stn">2</div><h3>We Build Your Strategy</h3><p>We design the right package for your business and goals. You approve the plan — we handle all execution from there.</p></div>
+      <div class="stcard rv d3"><div class="stn">3</div><h3>Launch in 48–72 Hours</h3><p>Your website or campaign goes live fast. Call tracking set up from day one so you see exactly where every lead comes from.</p></div>
+      <div class="stcard rv d4"><div class="stn">4</div><h3>Grow & Optimize</h3><p>We report, iterate, and improve every month. More calls, more bookings, better ROI — we keep pushing until the numbers work.</p></div>
+    </div>
+  </div>
+</section>
+
+<!-- NICHES -->
+<section class="niches" id="who-we-serve" aria-labelledby="nt">
+  <div class="container">
+    <div class="nh rv">
+      <span class="slabel">Who We Serve</span>
+      <h2 class="stitle" id="nt">Built for <span>Saskatchewan's</span> Service Businesses</h2>
+      <p class="ssub">We specialize in businesses where one booked job covers your entire monthly investment. If your customers search Google before hiring — we can help you win that search.</p>
+    </div>
+    <div class="ngrid">
+      <div class="ncard rv d1"><span class="ni">🔧</span><div class="nn">Plumbers</div><div class="nd">Emergency & residential</div></div>
+      <div class="ncard rv d1"><span class="ni">🔥</span><div class="nn">HVAC Companies</div><div class="nd">Heating, cooling & furnace</div></div>
+      <div class="ncard rv d2"><span class="ni">⚡</span><div class="nn">Electricians</div><div class="nd">Residential & commercial</div></div>
+      <div class="ncard rv d2"><span class="ni">🏗️</span><div class="nn">Roofing & Renovation</div><div class="nd">Contractors & builders</div></div>
+      <div class="ncard rv d3"><span class="ni">🦷</span><div class="nn">Dental Clinics</div><div class="nd">New patient acquisition</div></div>
+      <div class="ncard rv d3"><span class="ni">🏥</span><div class="nn">Physio & Chiro</div><div class="nd">Appointment booking</div></div>
+      <div class="ncard rv d4"><span class="ni">✨</span><div class="nn">Med Spas & Wellness</div><div class="nd">Treatment bookings</div></div>
+      <div class="ncard rv d4"><span class="ni">💼</span><div class="nn">Professional Services</div><div class="nd">Lawyers, accountants & more</div></div>
+    </div>
+    <div class="ncta rv">
+      <h3>Don't see your industry? We likely still serve businesses like yours.</h3>
+      <p>If local customers find you through Google — we can build the system that makes sure you win that search.</p>
+      <a href="#contact" class="btn btn-gold">Talk to Us →</a>
+    </div>
+  </div>
+</section>
+
+<!-- PRICING -->
+<section class="pricing" id="pricing" aria-labelledby="prt">
+  <div class="container">
+    <div class="prh rv">
+      <span class="slabel">Investment</span>
+      <h2 class="stitle" id="prt">Simple, Honest <span>Pricing</span></h2>
+      <p class="ssub">No lock-in. No surprises. You know exactly what you're investing and what you're getting back.</p>
+    </div>
+    <div class="prnote rv"><span>💡 A single booked HVAC job or dental patient pays back your first month. That's the math.</span></div>
+    <div class="prgrid">
+
+      <div class="prcard rv d1">
+        <div class="preyebrow">Website Launch</div>
+        <div class="prtitle">Lead-Gen Website</div>
+        <p class="prdesc">For businesses that need a professional website built to generate calls, quote requests, and bookings — not just look good.</p>
+        <div class="prprice">
+          <div class="prstart">Starting at</div>
+          <div class="pramt"><sup>$</sup>2,500</div>
+          <div class="prfn">One-time investment · Delivered in 48–72 hours</div>
+        </div>
+        <ul class="prfeats">
+          <li class="prfeat"><span class="pchk">✓</span>5 to 8 page professional website</li>
+          <li class="prfeat"><span class="pchk">✓</span>Mobile-first, fast-loading design</li>
+          <li class="prfeat"><span class="pchk">✓</span>Copywriting included</li>
+          <li class="prfeat"><span class="pchk">✓</span>Contact forms & Google Maps</li>
+          <li class="prfeat"><span class="pchk">✓</span>Basic local SEO setup</li>
+          <li class="prfeat"><span class="pchk">✓</span>Speed optimization</li>
+          <li class="prfeat"><span class="pchk">✓</span>Call & form tracking setup</li>
+        </ul>
+        <a href="#contact" class="btn btn-ghost" style="width:100%;justify-content:center">Get Website Quote →</a>
+      </div>
+
+      <div class="prcard prcard-ft rv d2">
+        <div class="prbadge">Most Popular</div>
+        <div class="preyebrow">Lead Growth System</div>
+        <div class="prtitle">Ads + SEO Retainer</div>
+        <p class="prdesc">For businesses ready to run Google Ads and track real leads. We manage everything — you watch your phone ring.</p>
+        <div class="prprice">
+          <div class="prstart">Starting at</div>
+          <div class="pramt"><sup>$</sup>1,250<span class="per">/mo</span></div>
+          <div class="prfn">Ad spend is separate and fully controlled by you</div>
+        </div>
+        <ul class="prfeats">
+          <li class="prfeat"><span class="pchk">✓</span>Google Ads setup and management</li>
+          <li class="prfeat"><span class="pchk">✓</span>Dedicated landing page</li>
+          <li class="prfeat"><span class="pchk">✓</span>Call tracking & form tracking</li>
+          <li class="prfeat"><span class="pchk">✓</span>Monthly performance reporting</li>
+          <li class="prfeat"><span class="pchk">✓</span>Conversion improvements</li>
+          <li class="prfeat"><span class="pchk">✓</span>Google Business Profile support</li>
+        </ul>
+        <a href="#contact" class="btn btn-gold" style="width:100%;justify-content:center">Book Growth Audit →</a>
+      </div>
+
+      <div class="prcard rv d3">
+        <div class="preyebrow">Custom Apps & Automation</div>
+        <div class="prtitle">Built for Your Business</div>
+        <p class="prdesc">Portals, dashboards, booking systems, AI tools, CRMs, and workflow automation — scoped and built for exactly what you need.</p>
+        <div class="prprice">
+          <div class="prstart">Pricing</div>
+          <div class="pramt" style="font-size:1.8rem;line-height:1.2">Custom<br/>Quote</div>
+          <div class="prfn">Scoped after a discovery call · No obligation</div>
+        </div>
+        <ul class="prfeats">
+          <li class="prfeat"><span class="pchk">✓</span>Custom web or mobile app</li>
+          <li class="prfeat"><span class="pchk">✓</span>AI tools & workflow automation</li>
+          <li class="prfeat"><span class="pchk">✓</span>CRM & booking integrations</li>
+          <li class="prfeat"><span class="pchk">✓</span>Full digital marketing stack</li>
+          <li class="prfeat"><span class="pchk">✓</span>Dedicated account manager</li>
+        </ul>
+        <a href="#contact" class="btn btn-ghost" style="width:100%;justify-content:center">Tell Us What You Need →</a>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- WHY US -->
+<section class="why" aria-labelledby="wt">
+  <div class="container">
+    <div class="whi">
+      <div class="rv">
+        <span class="slabel">Why GrowSK Tech</span>
+        <h2 class="stitle" id="wt">Saskatchewan's Digital Agency That <span>Actually Delivers</span></h2>
+        <p class="ssub">Most agencies give you reports and excuses. We give you tracked calls, booked jobs, and real numbers — because that's what a Saskatchewan business owner actually needs.</p>
+        <div class="whpts">
+          <div class="whpt"><div class="whpico g">⚡</div><div class="whptxt"><h4>We Launch Fast</h4><p>Your website or campaign goes live in 48–72 hours. Every day without a lead-generating site is a day your competitor gets the call.</p></div></div>
+          <div class="whpt"><div class="whpico go">📊</div><div class="whptxt"><h4>Everything Is Tracked</h4><p>Call tracking, form submissions, ad attribution — you always know exactly where every lead came from and what it cost to acquire.</p></div></div>
+          <div class="whpt"><div class="whpico n">🏡</div><div class="whptxt"><h4>Saskatchewan-Focused</h4><p>We know Saskatoon, Regina, and this market. Our digital marketing strategies are built for SK businesses — not copy-pasted from somewhere else.</p></div></div>
+          <div class="whpt"><div class="whpico g">🤝</div><div class="whptxt"><h4>No Lock-In Contracts</h4><p>We earn your business every month. If we're not delivering results, you're not stuck. That's the deal — and it keeps us accountable.</p></div></div>
+        </div>
+      </div>
+      <div class="rv d2">
+        <div class="whsc">
+          <h3>The Saskatchewan Digital Opportunity</h3>
+          <div class="whsi"><span class="whsl">Small businesses in SK</span><span class="whsv">154<span class="ac">K</span></span></div>
+          <div class="whsi"><span class="whsl">Use at least one digital channel</span><span class="whsv">9 in <span class="ac">10</span></span></div>
+          <div class="whsi"><span class="whsl">Say lack of time is #1 barrier</span><span class="whsv"><span class="ac">66%</span></span></div>
+          <div class="whsi"><span class="whsl">Trust businesses with a website more</span><span class="whsv"><span class="ac">53%</span></span></div>
+          <div class="whsi"><span class="whsl">Saskatoon & Regina market share</span><span class="whsv"><span class="ac">46%</span></span></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- CTA + FORM -->
+<section class="cta" id="contact" aria-labelledby="ct">
+  <div class="container">
+    <div class="ctai">
+      <div class="ctagrid">
+        <div class="ctal rv">
+          <span class="slabel" style="color:rgba(255,255,255,.6)">Let's Talk</span>
+          <h2 id="ct">Ready to Get More Calls and Book More Jobs?</h2>
+          <p>Get a free audit of your website and online presence. We'll show you exactly what's costing you leads — and how we fix it. No pressure. No pitch. Just clarity.</p>
+          <ul class="ctalist">
+            <li class="ctali">Free website & Google presence audit</li>
+            <li class="ctali">Response within 4 business hours</li>
+            <li class="ctali">No contracts — cancel anytime</li>
+            <li class="ctali">Serving all of Saskatchewan</li>
+          </ul>
+        </div>
+        <div class="rv d2">
+          <div class="cform">
+            <div class="ftitle">Get Your Free Audit</div>
+            <div class="fsubt">Fill in the details — we'll review and reach out within 4 hours.</div>
+            <!--
+              FORM INTEGRATION POINT
+              Connect to your preferred backend:
+              ─ Formspree:  add action="https://formspree.io/f/YOUR_ID" method="POST" to <form>
+              ─ Netlify:    add netlify and name="contact" attrs to <form>
+              ─ Tally:      replace entire form with Tally embed
+              ─ Supabase:   use fetch() in the submit handler below
+            -->
+            <form id="cform" novalidate>
+              <div class="frow">
+                <div class="fg"><label for="fn">Your Name *</label><input type="text" id="fn" name="name" placeholder="John Smith" required autocomplete="name" /></div>
+                <div class="fg"><label for="fb">Business Name *</label><input type="text" id="fb" name="business" placeholder="Smith Plumbing Ltd." required /></div>
+              </div>
+              <div class="fg"><label for="fu">Current Website URL</label><input type="url" id="fu" name="website" placeholder="https://yourbusiness.com (or leave blank)" /></div>
+              <div class="frow">
+                <div class="fg"><label for="fe">Email Address *</label><input type="email" id="fe" name="email" placeholder="you@business.com" required autocomplete="email" /></div>
+                <div class="fg"><label for="fp">Phone Number</label><input type="tel" id="fp" name="phone" placeholder="306-000-0000" autocomplete="tel" /></div>
+              </div>
+              <div class="fg">
+                <label for="fs">What do you need help with? *</label>
+                <select id="fs" name="service" required>
+                  <option value="" disabled selected>Select a service…</option>
+                  <option>Website Design</option>
+                  <option>Google Ads</option>
+                  <option>Local SEO</option>
+                  <option>Custom App or Software</option>
+                  <option>AI Tool / Automation</option>
+                  <option>Not sure yet — need advice</option>
+                </select>
+              </div>
+              <div class="fg">
+                <label for="fg2">Monthly marketing budget</label>
+                <select id="fg2" name="budget">
+                  <option value="" disabled selected>Select a range…</option>
+                  <option>Under $1,000/month</option>
+                  <option>$1,000 – $3,000/month</option>
+                  <option>$3,000 – $10,000/month</option>
+                  <option>$10,000+/month</option>
+                  <option>Not sure yet</option>
+                </select>
+              </div>
+              <div class="fg"><label for="fm">Anything else we should know?</label><textarea id="fm" name="message" placeholder="Tell us about your business, goals, or any challenges you're facing…"></textarea></div>
+              <button type="submit" class="fsub">Send My Free Audit Request →</button>
+              <p class="fnote">We respect your privacy. No spam, ever.</p>
+            </form>
+            <div class="fsuccess" id="fsuccess">
+              <h4>✅ Request Received!</h4>
+              <p>Thanks! We'll review your details and get back to you within 4 business hours. Check your inbox.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- SEO LINKS -->
+<div class="seolinks" aria-label="Popular services in Saskatchewan">
+  <div class="container">
+    <div class="seotitle">Popular Services in Saskatchewan</div>
+    <div class="seogrid">
+      <div class="seocol"><h4>Web Design</h4><ul>
+        <li><a href="/web-design-saskatoon/">Web Design Saskatoon</a></li>
+        <li><a href="/web-design-regina/">Web Design Regina</a></li>
+        <li><a href="/contractor-web-design-saskatchewan/">Contractor Web Design SK</a></li>
+        <li><a href="/websites-for-service-businesses/">Websites for Service Businesses</a></li>
+      </ul></div>
+      <div class="seocol"><h4>Google Ads & SEO</h4><ul>
+        <li><a href="/google-ads-saskatoon/">Google Ads Saskatoon</a></li>
+        <li><a href="/google-ads-regina/">Google Ads Regina</a></li>
+        <li><a href="/local-seo-saskatoon/">Local SEO Saskatoon</a></li>
+        <li><a href="/local-seo-regina/">Local SEO Regina</a></li>
+        <li><a href="/digital-marketing-saskatchewan/">Digital Marketing Saskatchewan</a></li>
+      </ul></div>
+      <div class="seocol"><h4>Apps & Software</h4><ul>
+        <li><a href="/app-development-saskatoon/">App Development Saskatoon</a></li>
+        <li><a href="/custom-software-saskatchewan/">Custom Software Saskatchewan</a></li>
+        <li><a href="/ai-tools-saskatchewan/">AI Tools Saskatchewan</a></li>
+        <li><a href="/ai-tools-for-businesses/">AI Tools for Businesses</a></li>
+      </ul></div>
+      <div class="seocol"><h4>Trade Marketing</h4><ul>
+        <li><a href="/plumber-marketing-saskatchewan/">Plumber Marketing Saskatchewan</a></li>
+        <li><a href="/hvac-marketing-saskatchewan/">HVAC Marketing Saskatchewan</a></li>
+        <li><a href="/electrician-marketing-saskatchewan/">Electrician Marketing SK</a></li>
+      </ul></div>
+      <div class="seocol"><h4>Locations</h4><ul>
+        <li><a href="/saskatoon/">Digital Agency Saskatoon</a></li>
+        <li><a href="/regina/">Digital Agency Regina</a></li>
+        <li><a href="/prince-albert/">Digital Agency Prince Albert</a></li>
+        <li><a href="/moose-jaw/">Digital Agency Moose Jaw</a></li>
+      </ul></div>
+    </div>
+  </div>
+</div>
+
+<!-- FOOTER -->
+<footer role="contentinfo">
+  <div class="container">
+    <div class="fgrid">
+      <div class="fbrand">
+        <span class="nlt"><span class="gr">Grow</span><span class="sk">SK</span>&nbsp;<span class="tc">Tech</span></span>
+        <p class="ftag">Saskatchewan's digital growth partner. We build lead-generation websites in Saskatoon and Regina, run Google Ads, develop custom apps, and create AI tools that help local service businesses get more calls, more bookings, and more revenue.</p>
+        <div class="fsocs">
+          <a href="https://facebook.com/growsktech" class="soc" aria-label="Facebook" rel="noopener">f</a>
+          <a href="https://instagram.com/growsktech" class="soc" aria-label="Instagram" rel="noopener">📷</a>
+          <a href="https://linkedin.com/company/growsktech" class="soc" aria-label="LinkedIn" rel="noopener">in</a>
+        </div>
+      </div>
+      <div class="fcol"><h4>Services</h4><ul class="flinks">
+        <li><a href="/web-design-saskatoon/">Web Design Saskatoon</a></li>
+        <li><a href="/google-ads-saskatoon/">Google Ads Management</a></li>
+        <li><a href="/local-seo-saskatchewan/">Local SEO Saskatchewan</a></li>
+        <li><a href="/custom-software-saskatchewan/">Custom App Development</a></li>
+        <li><a href="/ai-tools-saskatchewan/">AI Tools & Automation</a></li>
+      </ul></div>
+      <div class="fcol"><h4>Company</h4><ul class="flinks">
+        <li><a href="#how-it-works">How It Works</a></li>
+        <li><a href="#who-we-serve">Industries We Serve</a></li>
+        <li><a href="#pricing">Pricing</a></li>
+        <li><a href="#contact">Contact Us</a></li>
+        <li><a href="/privacy/">Privacy Policy</a></li>
+      </ul></div>
+      <div class="fcol"><h4>Contact</h4>
+        <div class="fci"><span>📧</span><div class="fcinfo"><strong>Email</strong><a href="mailto:hello@growsktech.com" style="color:rgba(255,255,255,.55)">hello@growsktech.com</a></div></div>
+        <div class="fci"><span>📍</span><div class="fcinfo"><strong>Location</strong>Saskatoon, Saskatchewan, Canada</div></div>
+        <div class="fci"><span>🕐</span><div class="fcinfo"><strong>Response Time</strong>Within 4 business hours</div></div>
+      </div>
+    </div>
+    <div class="fbot">
+      <p>© 2025 GrowSK Tech. All rights reserved. Proudly serving Saskatchewan businesses in Saskatoon, Regina, and beyond.</p>
+      <div class="flegal"><a href="/privacy/">Privacy Policy</a><a href="/terms/">Terms of Service</a></div>
+    </div>
+  </div>
+</footer>
+
+<script>
+  /* Navbar */
+  const nb = document.getElementById('navbar');
+  window.addEventListener('scroll', () => nb.classList.toggle('scrolled', scrollY > 20), {passive:true});
+
+  /* Mobile menu */
+  const hb = document.getElementById('hamburger'), mm = document.getElementById('mmenu');
+  document.getElementById('mclose').onclick = cm;
+  hb.onclick = () => { mm.classList.add('open'); hb.setAttribute('aria-expanded','true'); document.body.style.overflow='hidden'; };
+  function cm() { mm.classList.remove('open'); hb.setAttribute('aria-expanded','false'); document.body.style.overflow=''; }
+
+  /* Mega nav */
+  function cna() { document.querySelectorAll('.nitem').forEach(e=>e.classList.remove('open')); }
+  function tn(id) { const el=document.getElementById(id), was=el.classList.contains('open'); cna(); if(!was) el.classList.add('open'); }
+  document.addEventListener('click', e => { if(!e.target.closest('.nitem')) cna(); });
+
+  /* Scroll reveal */
+  const obs = new IntersectionObserver(entries => {
+    entries.forEach(e => { if(e.isIntersecting){e.target.classList.add('vis');obs.unobserve(e.target);} });
+  }, {threshold:.1, rootMargin:'0px 0px -40px 0px'});
+  document.querySelectorAll('.rv').forEach(el=>obs.observe(el));
+
+  /* Smooth scroll */
+  document.querySelectorAll('a[href^="#"]').forEach(a => {
+    a.addEventListener('click', function(e){
+      const t = document.querySelector(this.getAttribute('href'));
+      if(t){e.preventDefault();window.scrollTo({top:t.getBoundingClientRect().top+scrollY-80,behavior:'smooth'});}
+    });
+  });
+
+  /* Form
+     TO CONNECT: Replace the setTimeout block below with a real fetch call.
+     Formspree example:
+       const res = await fetch('https://formspree.io/f/YOUR_ID', {
+         method:'POST', headers:{'Accept':'application/json'}, body: new FormData(this)
+       });
+       if(res.ok) showOk(); else { btn.textContent='Try again'; btn.disabled=false; }
+  */
+  document.getElementById('cform').addEventListener('submit', async function(e){
+    e.preventDefault();
+    const btn = this.querySelector('.fsub');
+    btn.textContent = 'Sending…'; btn.disabled = true;
+    setTimeout(showOk, 800); // Remove this line when real endpoint is connected
+  });
+  function showOk(){
+    document.getElementById('cform').style.display='none';
+    document.getElementById('fsuccess').style.display='block';
+  }
+</script>
+</body>
+</html>

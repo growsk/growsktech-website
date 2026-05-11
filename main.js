@@ -16,9 +16,9 @@ if (hb && mm) {
 }
 function cm() {
   const menu = document.getElementById('mmenu');
-  const btn = document.getElementById('hamburger');
+  const btn  = document.getElementById('hamburger');
   if (menu) menu.classList.remove('open');
-  if (btn) btn.setAttribute('aria-expanded', 'false');
+  if (btn)  btn.setAttribute('aria-expanded', 'false');
   document.body.style.overflow = '';
 }
 
@@ -49,34 +49,81 @@ document.querySelectorAll('a[href^="#"]').forEach(a => {
   });
 });
 
-/* Form submit (fake success — replace setTimeout with real fetch when ready)
-   Formspree example:
-     const res = await fetch('https://formspree.io/f/YOUR_ID', {
-       method:'POST', headers:{'Accept':'application/json'}, body: new FormData(this)
-     });
-     if (res.ok) showOk(); else { btn.textContent='Try again'; btn.disabled=false; }
-*/
-const cf = document.getElementById('cform');
-if (cf) {
-  cf.addEventListener('submit', async function (e) {
+/* Contact form — Formspree */
+const FORMSPREE_URL = 'https://formspree.io/f/xwvyyeyv';
+
+function showFormError(form, btn, originalText, msg) {
+  let errEl = form.querySelector('.ferr');
+  if (!errEl) {
+    errEl = document.createElement('p');
+    errEl.className = 'ferr';
+    btn.parentNode.insertBefore(errEl, btn);
+  }
+  errEl.textContent = msg;
+  btn.textContent = originalText;
+  btn.disabled = false;
+}
+
+function initForm(form) {
+  if (!form) return;
+
+  /* Inject honeypot field (hidden via .hp-field CSS class) */
+  if (!form.querySelector('[name="_gotcha"]')) {
+    const hp = document.createElement('input');
+    hp.type = 'text';
+    hp.name = '_gotcha';
+    hp.className = 'hp-field';
+    hp.tabIndex = -1;
+    hp.autocomplete = 'off';
+    form.appendChild(hp);
+  }
+
+  form.addEventListener('submit', async function (e) {
     e.preventDefault();
+
+    /* Honeypot check — silently drop bot submissions */
+    const honeypot = this.querySelector('[name="_gotcha"]');
+    if (honeypot && honeypot.value) return;
+
     const btn = this.querySelector('.fsub');
+    const originalText = btn.textContent;
     btn.textContent = 'Sending…';
     btn.disabled = true;
-    setTimeout(showOk, 800);
+
+    /* Append context fields */
+    const data = new FormData(this);
+    data.append('page_url',      window.location.href);
+    data.append('page_title',    document.title);
+    data.append('submitted_at',  new Date().toISOString());
+
+    try {
+      const res = await fetch(FORMSPREE_URL, {
+        method: 'POST',
+        headers: { 'Accept': 'application/json' },
+        body: data
+      });
+
+      if (res.ok) {
+        this.style.display = 'none';
+        const successEl = document.getElementById('fsuccess');
+        if (successEl) successEl.style.display = 'block';
+      } else {
+        const json = await res.json().catch(() => ({}));
+        const msg  = (json.errors || []).map(er => er.message).join(', ') || 'Something went wrong. Please try again.';
+        showFormError(this, btn, originalText, msg);
+      }
+    } catch (_) {
+      showFormError(this, btn, originalText, 'Network error. Please check your connection and try again.');
+    }
   });
 }
-function showOk() {
-  const f = document.getElementById('cform');
-  const s = document.getElementById('fsuccess');
-  if (f) f.style.display = 'none';
-  if (s) s.style.display = 'block';
-}
+
+document.querySelectorAll('#cform, .lead-form').forEach(initForm);
 
 /* FAQ accordion */
 document.querySelectorAll('.faq-q').forEach(btn => {
   btn.addEventListener('click', function () {
-    const item = this.closest('.faq-item');
+    const item   = this.closest('.faq-item');
     const isOpen = item.classList.contains('open');
     document.querySelectorAll('.faq-item.open').forEach(el => el.classList.remove('open'));
     if (!isOpen) item.classList.add('open');

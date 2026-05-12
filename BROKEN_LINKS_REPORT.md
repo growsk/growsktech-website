@@ -1,13 +1,13 @@
 # GrowSK Tech — Broken Internal Links Report
 
-**Generated:** 2026-05-11 (updated after location pages created)
-**Total HTML files scanned:** 16
-**Working internal link targets:** 14
-**Broken internal link targets:** 11
+**Generated:** 2026-05-11 (final — all pages created)
+**Total HTML files scanned:** 27
+**Working internal link targets:** 25
+**Broken internal link targets:** 0
 
 ---
 
-## 1. Existing Working Pages
+## 1. All Working Pages (26 total)
 
 - `/ — Homepage`
 - `/saskatoon/ — Digital Agency Saskatoon`
@@ -24,77 +24,31 @@
 - `/custom-software-saskatchewan/ — Custom Software Saskatchewan`
 - `/ai-tools-saskatchewan/ — AI Tools Saskatchewan`
 - `/digital-marketing-saskatchewan/ — Digital Marketing Saskatchewan`
+- `/plumber-marketing-saskatchewan/ — Plumber Marketing Saskatchewan`
+- `/hvac-marketing-saskatchewan/ — HVAC Marketing Saskatchewan`
+- `/electrician-marketing-saskatchewan/ — Electrician Marketing Saskatchewan`
+- `/contractor-web-design-saskatchewan/ — Contractor Web Design Saskatchewan`
+- `/dental-marketing-saskatchewan/ — Dental Marketing Saskatchewan`
+- `/healthcare-marketing-saskatchewan/ — Healthcare Marketing Saskatchewan`
+- `/professional-services-saskatchewan/ — Professional Services Saskatchewan`
+- `/websites-for-service-businesses/ — Websites for Service Businesses`
+- `/ai-tools-for-businesses/ — AI Tools for Businesses`
+- `/privacy/ — Privacy Policy`
+- `/terms/ — Terms of Service`
 
 ---
 
-## 2. Broken Internal Links
+## 2. Broken Links
 
-These URLs are referenced in the site nav, footer, or SEO link sections but no matching folder/page exists yet.
-
-| URL | Referenced in (files) |
-|-----|-----------------------|
-| `/ai-tools-for-businesses/` | `index.html`, `seo-page-template.html` |
-| `/contractor-web-design-saskatchewan/` | `ai-tools-saskatchewan/index.html`, `app-development-saskatoon/index.html`, `custom-software-saskatchewan/index.html` +13 more |
-| `/dental-marketing-saskatchewan/` | `ai-tools-saskatchewan/index.html`, `app-development-saskatoon/index.html`, `custom-software-saskatchewan/index.html` +13 more |
-| `/electrician-marketing-saskatchewan/` | `ai-tools-saskatchewan/index.html`, `app-development-saskatoon/index.html`, `custom-software-saskatchewan/index.html` +13 more |
-| `/healthcare-marketing-saskatchewan/` | `ai-tools-saskatchewan/index.html`, `app-development-saskatoon/index.html`, `custom-software-saskatchewan/index.html` +13 more |
-| `/hvac-marketing-saskatchewan/` | `ai-tools-saskatchewan/index.html`, `app-development-saskatoon/index.html`, `custom-software-saskatchewan/index.html` +13 more |
-| `/plumber-marketing-saskatchewan/` | `ai-tools-saskatchewan/index.html`, `app-development-saskatoon/index.html`, `custom-software-saskatchewan/index.html` +13 more |
-| `/privacy/` | `ai-tools-saskatchewan/index.html`, `app-development-saskatoon/index.html`, `custom-software-saskatchewan/index.html` +13 more |
-| `/professional-services-saskatchewan/` | `ai-tools-saskatchewan/index.html`, `app-development-saskatoon/index.html`, `custom-software-saskatchewan/index.html` +13 more |
-| `/terms/` | `ai-tools-saskatchewan/index.html`, `app-development-saskatoon/index.html`, `custom-software-saskatchewan/index.html` +13 more |
-| `/websites-for-service-businesses/` | `ai-tools-saskatchewan/index.html`, `app-development-saskatoon/index.html`, `custom-software-saskatchewan/index.html` +13 more |
+**None.** All internal links resolve to existing pages.
 
 ---
 
-## 3. Recommended Pages to Create Next
+## 3. Notes
 
-Sorted by SEO and business priority.
-
-### High Priority
-
-**`/plumber-marketing-saskatchewan/`**
-_Highest-revenue trade niche in SK — strong long-tail keyword cluster_
-
-**`/hvac-marketing-saskatchewan/`**
-_High job value, seasonal urgency — strong Google Ads + SEO candidate_
-
-**`/electrician-marketing-saskatchewan/`**
-_Large trade audience, high CPC keywords — strong SEO page_
-
-**`/privacy/`**
-_Required for legal compliance and Google Ads approval_
-
-### Medium Priority
-
-**`/contractor-web-design-saskatchewan/`**
-_Broad contractor audience — good web design keyword expansion_
-
-**`/dental-marketing-saskatchewan/`**
-_High-LTV clients, competitive market — strong PPC + local SEO page_
-
-**`/healthcare-marketing-saskatchewan/`**
-_Physio, chiro, clinics — booking-focused, clear conversion intent_
-
-**`/professional-services-saskatchewan/`**
-_Lawyers, accountants, consultants — broad audience, strong SEO value_
-
-**`/terms/`**
-_Standard legal page — needed before running paid ads_
-
-### Low Priority
-
-**`/websites-for-service-businesses/`**
-_Informational SEO page — good for long-tail but lower urgency_
-
-**`/ai-tools-for-businesses/`**
-_Informational / future-facing — low urgency vs revenue pages_
-
----
-
-## 4. Notes
-
-- Location pages `/saskatoon/`, `/regina/`, `/prince-albert/`, `/moose-jaw/` created in this commit — those 4 broken links are now resolved.
-- All broken links appear across the shared nav, footer, and SEO link sections — creating each page instantly fixes the link across all 16 HTML files.
-- Industry pages should follow the same SEO landing page structure as the 10 service pages already created.
-- `/privacy/` and `/terms/` should be created before running Google Ads campaigns (Google policy requirement).
+- All 26 pages created and verified.
+- `sitemap.xml`, `robots.txt`, `llms.txt`, and `humans.txt` added.
+- All contact forms submit to Formspree via `main.js`.
+- No inline `<style>` or `<script>` blocks on any page.
+- Homepage pricing unchanged.
+- SEO landing pages do not show pricing cards.

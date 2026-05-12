@@ -1,0 +1,74 @@
+# GrowSK Tech — AI Context File
+
+## Company
+- Name: GrowSK Tech
+- Website: https://www.growsktech.com
+- Location: Saskatoon, Saskatchewan, Canada
+- Contact: hello@growsktech.com
+
+## What We Do
+GrowSK Tech is a Saskatchewan digital agency that builds lead-generation websites, runs Google Ads campaigns, manages local SEO, and develops custom apps and AI tools for service businesses across Saskatchewan.
+
+## Service Areas
+- Saskatoon, Saskatchewan (primary)
+- Regina, Saskatchewan (primary)
+- Prince Albert, Saskatchewan
+- Moose Jaw, Saskatchewan
+- All of Saskatchewan (province-wide)
+
+## Services
+1. Web Design — Lead-generation websites launched in 48–72 hours, copywriting included, local SEO foundation built in
+2. Google Ads — Search campaign management, dedicated landing pages, call tracking, monthly optimization
+3. Local SEO — Google Business Profile management, map pack rankings, citations, review strategy, local service pages
+4. App Development — Custom booking systems, client portals, quote calculators, staff dashboards
+5. Custom Software — CRMs, workflow automation, reporting dashboards, operational tools
+6. AI Tools — Lead qualification assistants, customer support bots, proposal drafting tools, internal automation
+7. Digital Marketing — Full-stack growth systems combining website, ads, SEO, and tracking
+
+## Industries Served
+- Plumbers
+- HVAC companies
+- Electricians
+- Renovation and construction contractors
+- Dental clinics
+- Physiotherapy and chiropractic clinics
+- Med spas and wellness practices
+- Lawyers and law firms
+- Accountants and CPA practices
+- Financial advisors
+- Immigration consultants
+- Professional services firms
+
+## Ideal Customers
+Service businesses in Saskatchewan where one booked job covers the monthly marketing investment. Businesses where customers search Google before hiring. Owner-operated companies with 1–50 employees looking for a single agency to own their entire digital presence.
+
+## Key Value Propositions
+- Websites launched in 48–72 hours (not 6 weeks)
+- Copywriting always included
+- Full call and form tracking from day one
+- No long-term contracts
+- Saskatchewan-based — understands the local market
+
+## Key Pages
+- Homepage: https://www.growsktech.com/
+- Saskatoon Hub: https://www.growsktech.com/saskatoon/
+- Regina Hub: https://www.growsktech.com/regina/
+- Web Design Saskatoon: https://www.growsktech.com/web-design-saskatoon/
+- Web Design Regina: https://www.growsktech.com/web-design-regina/
+- Google Ads Saskatoon: https://www.growsktech.com/google-ads-saskatoon/
+- Google Ads Regina: https://www.growsktech.com/google-ads-regina/
+- Local SEO Saskatoon: https://www.growsktech.com/local-seo-saskatoon/
+- Local SEO Regina: https://www.growsktech.com/local-seo-regina/
+- Digital Marketing SK: https://www.growsktech.com/digital-marketing-saskatchewan/
+- AI Tools SK: https://www.growsktech.com/ai-tools-saskatchewan/
+- Custom Software SK: https://www.growsktech.com/custom-software-saskatchewan/
+- App Development: https://www.growsktech.com/app-development-saskatoon/
+- Plumber Marketing: https://www.growsktech.com/plumber-marketing-saskatchewan/
+- HVAC Marketing: https://www.growsktech.com/hvac-marketing-saskatchewan/
+- Electrician Marketing: https://www.growsktech.com/electrician-marketing-saskatchewan/
+- Contractor Web Design: https://www.growsktech.com/contractor-web-design-saskatchewan/
+- Dental Marketing: https://www.growsktech.com/dental-marketing-saskatchewan/
+- Healthcare Marketing: https://www.growsktech.com/healthcare-marketing-saskatchewan/
+- Professional Services: https://www.growsktech.com/professional-services-saskatchewan/
+- Privacy Policy: https://www.growsktech.com/privacy/
+- Terms of Service: https://www.growsktech.com/terms/
